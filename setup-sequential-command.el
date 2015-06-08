@@ -1,4 +1,4 @@
-;;; sequential-command-config.el --- setup of sequential-command.el
+;;; setup-sequential-command.el --- setup of sequential-command.el
 ;; Time-stamp: <2015-06-8 18:00:00 bitswitcher>
 ;; Copyright (C) 2015 bitswitcher
 
@@ -15,6 +15,6 @@
   (global-set-key "\C-a" 'seq-home)
   (global-set-key "\C-e" 'seq-end))
 
-(provide 'setup-command-config)
+(provide 'setup-sequential-command)
 
 ;;; setup-sequential-command.el ends here
